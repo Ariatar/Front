@@ -1,0 +1,96 @@
+*:focus {
+    outline: none !important;
+}
+
+body {
+    color: $black;
+    background: linear-gradient(172.51deg, #B199BF 0%, #6E98C2 84.4%);
+    line-height: 25px;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper-slider {
+    max-width: 1210px;
+    margin: 0 -20px;
+
+    @media (min-width: 1290px) {
+        margin: 0 auto;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.container-custom {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+
+    @include media-breakpoint-up(sm) {
+        max-width: 570px;
+    }
+
+    @include media-breakpoint-up(md) {
+        max-width: 750px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        max-width: 990px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        max-width: 1170px;
+    }
+
+    @media (min-width: 1290px) {
+        max-width: 1320px;
+    }
+}
+
+.container {
+    @media (min-width: 1290px) {
+        max-width: 1290px;
+    }
+}
+
+.mt {
+    margin-top: $offset;
+}
+
+.mr {
+    margin-right: $offset;
+}
+
+.mb {
+    margin-bottom: $offset;
+}
+
+.ml {
+    margin-left: $offset;
+}
+
+.pt {
+    padding-top: $offset;
+}
+
+.pr {
+    padding-right: $offset;
+}
+
+.pb {
+    padding-bottom: $offset;
+}
+
+.pl {
+    padding-left: $offset;
+}
+
+.pb3 {
+    padding-bottom: $offset * 3;
+}
+

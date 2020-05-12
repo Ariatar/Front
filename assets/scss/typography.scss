@@ -1,0 +1,175 @@
+.header-1 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+}
+
+.header-2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+
+    @include media-breakpoint-up(sm) {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 45px;
+    }
+}
+
+.header-3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+
+.header-4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header-5 {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.header-6 {
+    font-weight: 500;
+    font-size: 16px;
+    color: $black;
+    line-height: 25px;
+}
+
+.subtitle {
+    font-size: 12px;
+    line-height: 15px;
+    color: $grey;
+    letter-spacing: -0.01em;
+    margin-bottom: 5px;
+}
+.custom-control-input {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.subtitle-medium {
+    @extend .subtitle;
+    font-weight: normal;
+    color: $dark-grey;
+}
+.title-medium {
+    @extend .subtitle;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #2F4858;
+}
+
+.search-by-teacher {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.card {
+    border-style: none  ;
+}
+
+.fix {
+    margin-left: 10px;
+}
+.fix2 {
+    margin-left: 5px;
+}
+.general {
+    font-size: 16px;
+    color: $dark-grey;
+    line-height: 25px;
+}
+
+.general-text {
+    @extend .general;
+    font-weight: 400;
+    letter-spacing: -0.02rem;
+}
+
+.general-text-light {
+    @extend .general;
+    font-weight: 300;
+    letter-spacing: -0.01rem;
+}
+
+.custom-control-label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: -0.02em;
+
+    /* Black */
+
+    color: #2F4858;
+}
+
+
+.blog-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: $dark-grey;
+}
+
+.text-grey {
+    color: $grey;
+}
+
+.text-black {
+    color: $black;
+}
+
+.text-primary-dark {
+    color: $primary-dark;
+}
+
+.text-danger {
+    color: $danger-text;
+}
+
+.course-card_type2 {
+    position: absolute;
+    bottom: 15px;
+}
+.general-regular {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: -0.02em;
+
+    /* Dark grey */
+
+    color: #667077;
+}
+.custom-control-input {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 1.25rem;
+    height: 1.25rem;
+    opacity: 0;
+}
