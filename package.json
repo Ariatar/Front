@@ -18,7 +18,7 @@
         "@nuxtjs/style-resources": "^1.0.0",
         "@nuxtjs/yandex-metrika": "^1.0.3",
         "atob": "^2.1.2",
-        "axios": "^0.19.2",
+        "axios": "^1.15.0",
         "bootstrap": "^4.4.1",
         "bootstrap-vue": "^2.5.0",
         "hooper": "^0.3.4",
