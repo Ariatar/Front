@@ -11,14 +11,14 @@
         "generate": "nuxt generate"
     },
     "dependencies": {
-        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/axios": "^5.13.6",
         "@nuxtjs/dotenv": "^1.4.0",
         "@nuxtjs/google-gtag": "^1.0.4",
         "@nuxtjs/moment": "^1.6.0",
         "@nuxtjs/style-resources": "^1.0.0",
         "@nuxtjs/yandex-metrika": "^1.0.3",
         "atob": "^2.1.2",
-        "axios": "^0.19.2",
+        "axios": "^1.15.0",
         "bootstrap": "^4.4.1",
         "bootstrap-vue": "^2.5.0",
         "hooper": "^0.3.4",
